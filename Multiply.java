@@ -1,0 +1,10 @@
+public class Multiply {
+    public static Double multiply(Double a, Double b) {
+      double res = a * b;  
+      return res ;
+          
+    }
+    public static void main(String[] args) {
+        System.out.println(multiply(2.0, 4.0)); 
+}
+}
